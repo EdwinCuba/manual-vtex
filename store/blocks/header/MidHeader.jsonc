@@ -1,0 +1,107 @@
+{
+  "flex-layout.col#logo": {
+    "children": ["logo"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "logo": {
+    "props": {
+      "width": 220,
+      "title": "logo",
+      "href": "/",
+      "alt": "logo footloose",
+      "url": "https://footloose.vtexassets.com/assets/vtex/assets-builder/footloose.store-theme-ftl/2.0.75/footloose-logo___34b68aa3743801440c14aea95a7da3dc.svg"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "width": 170,
+      "title": "logo",
+      "href": "/",
+      "alt": "logo footloose",
+      "url": "https://footloose.vtexassets.com/assets/vtex/assets-builder/footloose.store-theme-ftl/2.0.81/LogoFootloose___3e16de7d012cb5463b723b051a42ecc1.svg"
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+  
+  "flex-layout.col#login-cart-wish": {
+    "children": ["flex-layout.row#header-user"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#mobileLogin-cart-wish": {
+    "children": ["flex-layout.row#mobileHeader-user"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#mobileHeader-user": {
+    "children": [
+      "flex-layout.col#mobileLogin",
+      "flex-layout.col#mobileMinicart",
+      "flex-layout.col#mobileMinicart"
+    ],
+    "props": {
+      "blockClass": ["headerMobile"]
+    }
+  },
+
+  "flex-layout.row#header-user": {
+    "children": [
+      "flex-layout.col#login",
+      "flex-layout.col#minicart",
+      "flex-layout.col#wishlist"
+    ]
+  },
+
+  "flex-layout.col#login": {
+    "children": ["login"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  },
+  "flex-layout.col#mobileLogin": {
+    "children": ["login#mobile"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "login#mobile":{
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "blockClass": ["mobileLogin"]
+    }
+  },
+  "flex-layout.col#minicart": {
+    "children": ["minicart.v2"]
+  },
+  "flex-layout.col#mobileMinicart": {
+    "children": ["minicart.v2#mobile"]
+  },
+  "minicart.v2#mobile": {
+    "props": {
+      "blockClass": ["mobileMinicart"]
+    }
+  },
+  "flex-layout.col#wishlist": {
+    "children": ["minicart.v2"]
+  }
+}

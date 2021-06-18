@@ -1,0 +1,9 @@
+
+.caretIcon--carousel{
+  background: red;
+  border-radius: 50%;
+  color: white;
+  font-size: 8px;
+  width: 15px;
+  height: 15px;
+}

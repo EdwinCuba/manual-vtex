@@ -1,0 +1,113 @@
+{
+  "menu#sections": {
+    "props": {
+      "blockClass": ["menuSections"],
+      "items": [
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "2X1 R18"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Mujer"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/inicio/hombres",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Hombre"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Ninos"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Marcas"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Coleccion"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Sale"
+          }
+        },
+        {
+          "id": "menu-item",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "Blog"
+          }
+        }
+      ]
+    }
+  }
+}

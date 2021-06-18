@@ -1,0 +1,10 @@
+.flexRowContent--headerMobileContainer {
+  height: 80px;
+  background: #3e1151;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexRowContent--headerMobile {
+  display: flex;
+}

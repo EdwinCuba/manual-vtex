@@ -1,0 +1,199 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#myName"
+      // "flex-layout.row#freeShip",
+      // "list-context.image-list#anuncios",
+      // "list-context.image-list#marcas",
+      // "list-context.image-list#fastShip"
+    ]
+  },
+  ////////////////////////
+
+  "rich-text#myName": {
+    "props": {
+      "text": "Hola, mi nombre es Edwin"
+    }
+  },
+
+  ////////////////////////
+  "flex-layout.row#freeShip": {
+    "children": ["list-context.image-list#freeShip"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "list-context.image-list#freeShip": {
+    "children": ["slider-layout#banner"],
+    "props": {
+      "images": [
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/c9c96ed0-03f0-4041-a94e-10e06d1651db___5328f7589dd777f322b6585e3fe265e3.jpg",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/c86c5b12-23b8-4e1b-84b1-967012a2bc2d___f371d7628aca04c87a5954d49dcca31b.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": ["freeShip"]
+    }
+  },
+
+  "list-context.image-list#anuncios": {
+    "children": ["slider-layout#anuncios"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/5eb3bc41-fd6f-4c30-b0c4-70f3599a39bf___b2a6cfa21075eacf75b6c2697cbd99d0.png",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/1b1aa7d8-041e-4478-9da1-29d8b3adecaa___3fbb91a74e9c8722f455fbc1941c4337.png"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/c46fbf5c-41bd-4ac1-ba76-7584f610d84c___ab26697a25e68ce63dff6e7fae41988a.png",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/c271aa82-45b2-4253-9ed1-f0509e7b10e7___5ce5ecef90cd6de4db98eff57fc6b43a.png"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/a9c45f94-36df-4313-9ced-3feb27b38d6a___476fd03c0a78fb6d52d1fb6350b9a94b.jpg",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/c8fe906c-8e17-4573-848b-f4f4a79cda6c___950ad1a45e5b15ccc91e2088d0f3352e.jpg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/966c5af0-632a-4aad-ba68-923e33c47894___b11e7f9c37cecbddc590ffeded895247.gif",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/d13c5e46-fbfc-45db-94bc-509d5fae22bb___2872ad047b46fd6616e58a0bf5d14b6b.gif"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/17243927-a157-4d5f-898c-f921cd25c543___f5e86120c8f87892a0fd2c1b3f432f29.png",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/2ceca929-b5f8-4364-9873-39ddc7f39639___26a5a18452d41001d7f2752026fb298a.png"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/caa41760-f878-465a-b5c8-2f938cbcf9b2___9a083b37c565941d8d16e367c25f3c3f.gif",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/be266539-2108-4c46-88e4-fa9d71ab0333___247cf4e3b3e559888c616df7190f1ea0.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#anuncios": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 8000
+      },
+      "slideTransition": {
+        "speed": 1500,
+        "delay": 0,
+        "timing": ""
+      },
+      "fullWidth": true,
+      "blockClass": ["carousel"]
+    }
+  },
+
+  "list-context.image-list#marcas": {
+    "children": ["slider-layout#marcas"],
+    "props": {
+      "height": 85,
+      "images": [
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-dauss.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/ead57321-e9e1-44f1-88c0-84b4352b89a9___05df16363bc650b88503f1db2bdd4982.jpg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-renzo-renzini.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-calimod.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-footloose.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-puma.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-reebok.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-fila.svg"
+        },
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-renzo-renzini.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ma-moleca.png"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-top-model.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-beira-rio.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-adidas.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-nike.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-puma.svg"
+        }  ,
+        {
+          "image": "https://footloose.vtexassets.com/arquivos/ftl-brand-reebok.svg"
+        }  
+      ]
+    }
+  },
+  "slider-layout#marcas":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 10,
+        "tablet": 8,
+        "phone": 5
+      },
+      "infinite": true,
+      "autoplay": {
+        "stopOnHover": false,
+        "timeout": 3500
+      },
+      "slideTransition": {
+        "speed": 3000,
+        "delay": 0,
+        "timing": ""
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#fastShip": {
+    "children": ["list-context.image-list#freeShip"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "list-context.image-list#fastShip": {
+    "children": ["slider-layout#banner"],
+    "props": {
+      "images": [
+        {
+          "image": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/7cfb427b-e7bc-436c-80b0-b5553c440f0c___0092d7bdfc9724e5681b13fd3bb58da9.png",
+          "mobileImage": "https://footloose.vtexassets.com/assets/vtex.file-manager-graphql/images/0f70271f-1bc2-4f15-b4ef-1174c545544d___04006ffa8a07098cd44044e6c3ae32f6.png"
+        }
+      ]
+    }
+  }
+}

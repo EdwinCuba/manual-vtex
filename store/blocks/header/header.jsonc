@@ -1,0 +1,94 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop-1",
+      "flex-layout.row#desktop-2",
+      "flex-layout.row#desktop-3"
+    ]
+  },
+
+  "flex-layout.row#desktop-1": {
+    "children": [
+      "menu#enlaces"
+    ],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "right"
+    }
+  },
+
+  "flex-layout.row#desktop-2": {
+    "children": [
+      "flex-layout.col#logo",
+      "search-bar",
+      "flex-layout.col#login-cart-wish"
+    ]
+  },
+
+  "flex-layout.row#desktop-3": {
+    "children": ["menu#sections"],
+    "props": {
+      "hosrizontalAlign": "center",
+      "fullWidth": true
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile-1"]
+  },
+  "sticky-layout#mobile-1": {
+    "children": ["flex-layout.row#mobile-1"]
+  },
+  "flex-layout.row#mobile-1": {
+    "children": [
+      "drawer#menu",
+      "drawer#search",
+      "logo#mobile",
+      "flex-layout.col#space",
+      "flex-layout.col#mobileLogin-cart-wish"
+    ],
+    "props": {
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": ["headerMobileContainer"]
+    }
+  },
+  "drawer#menu": {
+    "props": {
+      "blockClass": ["openMenu"]
+    }
+  },
+  "drawer#search": {
+    "children": ["search-bar"],
+    "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["image#searchIcon"],
+    "props": {
+      "slideDirection": "leftToRight",
+      "isFullWidth": true
+    }
+  },
+  "image#searchIcon":{
+    "props": {
+      "src": "https://footloose.vtexassets.com/assets/vtex/assets-builder/footloose.store-theme-ftl/2.0.81/icons/search-light___a89b5cdbad137a1af6765da34c7cf190.svg",
+      "width": 30,
+      "height": 30
+    }
+  },
+  "flex-layout.col#space": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

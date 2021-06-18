@@ -1,0 +1,74 @@
+{
+  "menu#enlaces": {
+    "props": {
+      "blockClass": ["firstHeader"],
+      "items": [
+        {
+          "id": "menu-item-gift_Cart",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/giftcard",
+            "noFollow": false,
+            "tagTitle": "gift card footloose",
+            "text": "GIFT CARD FOOTLOOSE"
+          }
+        },
+        {
+          "id": "menu-item-gift_Cart",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "fonocompras",
+            "text": "FONOCOMPRAS 12344566"
+          }
+        },
+        {
+          "id": "menu-item-gift_Cart",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "nuestras tiendas",
+            "text": "NUESTRAS TIENDAS"
+          }
+        },
+        {
+          "id": "menu-item-gift_Cart",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "servicio al cliente",
+            "text": "SERVICIO AL CLIENTE"
+          }
+        },
+        {
+          "id": "menu-item-gift_Cart",
+          "tyoe": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "catalogo",
+            "text": "CATALOGO"
+          }
+        }
+      ]
+    }
+  }
+}
