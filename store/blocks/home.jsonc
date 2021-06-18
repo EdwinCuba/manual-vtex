@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text#myName"
+      "rich-text#myName",
+      "my-personalized-component"
       // "flex-layout.row#freeShip",
       // "list-context.image-list#anuncios",
       // "list-context.image-list#marcas",
