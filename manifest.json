@@ -12,7 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "passarelape.my-component": "0.x",
+    "passarelape.my-component": "1.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
